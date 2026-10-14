@@ -9,7 +9,7 @@ The P(doom) music video (156.6 s, 9 chapters, ~7,800 lines) was built by Claude 
   - P(doom): 88 BPM, beat 0.682 s. 小镇姑娘: 154 BPM (half-time 77), one line = 8 beats ≈ 3.1 s.
   - For a ballad, set `PROJECT.bpm` to the half-time pulse so idles and bounces don't look frantic.
 - **Cut a clip on a bar line**: start one bar (or two) before the first line you use, end a bar or two after the last, and fade out:
-  `ffmpeg -ss <start> -t <len> -i song.mp3 -af "afade=t=in:d=.25,afade=t=out:st=<len-2>:d=2" -c:a aac assets/clip.m4a`.
+  `ffmpeg -ss <start> -t <len> -i song.mp3 -af "afade=t=in:d=0.25,afade=t=out:st=<len-2>:d=2" -c:a aac assets/clip.m4a`.
   Clip time = song time − start. Choose `start` so a beat lands on clip time 0, then `offset: 0`.
 - Lyric table `LY` in `src/karaoke.js`: `[start, end, "text", opts]` in clip time, lines running into each other. `opts.sing` = seconds to sing the line (drives the fill); `opts.hold` keeps a line up (lifted, two-row KTV style) after the next starts; `opts.pun = { from, to, at }` strikes `from` and pops `to` above it.
 - **Fast lines, one visual per line.** Budget every shot to its line's 8 beats; put the gag on the word it belongs to (find the word's beat), and when a gag needs more read time than the line gives, carry it into the next line (the koi keeps swimming and leaps out on the next line; the struck lyric is held above the next one) instead of slowing the song.
