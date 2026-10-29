@@ -3,3 +3,9 @@ node_modules/
 out/
 __pycache__/
 *.wav
+
+# Curated preview for the 咚咚砍 example (web mp4 + contact sheet).
+!skills/kinetic-reel/examples/dongdongkan/out/
+!skills/kinetic-reel/examples/dongdongkan/out/reel-web.mp4
+!skills/kinetic-reel/examples/dongdongkan/out/check/
+!skills/kinetic-reel/examples/dongdongkan/out/check/sheet1.jpg
