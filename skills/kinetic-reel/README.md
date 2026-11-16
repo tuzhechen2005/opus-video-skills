@@ -73,6 +73,7 @@ The skill can also be invoked directly with `/kinetic-reel`. It scaffolds a proj
 | `references/sound.md` | Synthesizer, transition sound rules, arrangement, known pitfalls |
 | `examples/work-reel-26/` | Full source of the 84-second example |
 | `examples/site-intro/` | The reel as a website entry page, with a Cloudflare Worker for HTTP Range |
+| `examples/dongdongkan/` | 36-second Apple-leaning product reel for the H5 game 咚咚砍 |
 
 ## License
 

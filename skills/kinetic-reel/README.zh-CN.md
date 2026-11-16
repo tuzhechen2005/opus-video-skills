@@ -78,6 +78,7 @@
 | `references/sound.md` | 合成器、转场音效规则、编曲方法与已知问题 |
 | `examples/work-reel-26/` | 84 秒示例的完整源码 |
 | `examples/site-intro/` | 把短片做成网站入口页的实现，附带支持 HTTP Range 的 Cloudflare Worker |
+| `examples/dongdongkan/` | H5 游戏《咚咚砍》的 36 秒苹果风产品短片 |
 
 ## 许可协议
 

@@ -1,0 +1,9 @@
+node_modules/
+music/*.wav
+
+# Render output. Keep the web preview and contact sheet.
+out/*
+!out/reel-web.mp4
+!out/check/
+out/check/*
+!out/check/sheet1.jpg
