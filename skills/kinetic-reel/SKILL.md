@@ -1,6 +1,7 @@
 ---
 name: kinetic-reel
-description: Make kinetic-typography motion reels (MP4) in code: showreels, portfolio or work reels, product promos, intro films, "motion design"-style videos with bold condensed type, HUD micro-type, black/cream/lime palette, three.js generative layers (particle terrain, liquid marble, chrome knot, particle clouds), shape-continuity transitions and a synthesized, beat-locked score. Canvas 2D + WebGL rendered frame by frame in headless Chrome, encoded with ffmpeg. Use when the user asks for a reel, showreel, motion-graphics / kinetic-type video, a "Work Reel" in this style, or to extend/re-cut the Work Reel ’26.
+description: >-
+  Make kinetic-typography motion reels (MP4) in code: showreels, portfolio or work reels, product promos, intro films, "motion design"-style videos with bold condensed type, HUD micro-type, black/cream/lime palette, three.js generative layers (particle terrain, liquid marble, chrome knot, particle clouds), shape-continuity transitions and a synthesized, beat-locked score. Canvas 2D + WebGL rendered frame by frame in headless Chrome, encoded with ffmpeg. Use when the user asks for a reel, showreel, motion-graphics / kinetic-type video, a "Work Reel" in this style, or to extend/re-cut the Work Reel ’26.
 ---
 
 # Kinetic reel
